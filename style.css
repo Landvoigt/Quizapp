@@ -1,3 +1,45 @@
 body {
     background-color: rgb(99, 218, 218);
 }
+
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav img {
+    object-fit: contain;
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.15);
+    padding-top: 8px;
+}
+
+.card-body {
+    font-size: 20px;
+}
+
+.quiz-answer-cont:hover {
+    background-color: rgb(248, 241, 232);
+    cursor: pointer;
+}
+
+.bg-success,
+.bg-danger {
+    color: aliceblue;
+    opacity: 0.8;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-ecnter {
+    text-align: center;
+}
